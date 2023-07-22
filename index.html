@@ -11,19 +11,19 @@
 </head>
 <body>
     <nav class="navbar bg-dark border-bottom border-bottom-dark" data-bs-theme="dark"">
-        <div class="container">
+        <div class="text-center mx-auto">
             <a class="navbar-brand fw-bold" id="title">Pinoy Reliever</a>
-            <form class="d-flex" role="search">
-                <input class="form-control" name="search" onkeyup="searchFunction(event)" style="width: 470px !important; max-width: 500px;" type="search" placeholder="Search" aria-label="Search">
-            </form>
+            <!-- <form class="d-flex" role="search"> -->
+                <input class="form-control" name="search" onkeyup="searchFunction(event)"  type="search" placeholder="Search" aria-label="Search">
+            <!-- </form> -->
         </div>
     </nav>
-        <div id="search">
-            <div class="leading">Search to watch</div>
+    <div id="search">
+        <div class="leading">Type to search</div>
+    </div>
+    <div id="divContent" class="container mt-5 d-none">
+        <div class="row">
         </div>
-        <div id="divContent" class="container mt-5 d-none">
-            <div class="row">
-            </div>
-        </div>
+    </div>
 </body>
 </html>
