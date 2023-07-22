@@ -6,6 +6,22 @@
     letter-spacing: 3px;
 }
 
+#footer{
+    font-family: 'Poppins', monospace;
+    font-size: 16px;
+    letter-spacing: 3px;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(-0%, -0%);
+    width: 100%;
+    color: #fff ;
+    padding: 5px;
+    text-align: center;
+    background-color: #212529 ;
+}
+
 /*
 1. Use a more-intuitive box-sizing model.
 */
